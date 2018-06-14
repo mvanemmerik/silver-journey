@@ -38,8 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem "figaro"
 gem 'mysql2', '< 0.5'
-gem 'scss_lint', require: false
-
+gem 'webpacker', '~> 3.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
